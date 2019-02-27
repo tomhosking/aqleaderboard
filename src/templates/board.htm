@@ -26,7 +26,7 @@
             <tr>
             <th class="align-middle" scope="row">{{ model.rank }}</th>
             <td class="align-middle">{{ model.name }} <hr class="m-1" /><small class="text-muted">{{ model.desc }}</small></td>
-            <td>{{ model.author }} <span class="text-muted">{{ model.year }}</span> <hr class="m-1" /><small>{{ model.affiliation }}</td>
+            <td>{{ model.author }} <span class="text-muted">({{ model.year }})</span> <hr class="m-1" /><small>{{ model.affiliation }}</td>
             <td class="align-middle">
                 {% if model.paper_url %}
                     <a href="{{ model.paper_url }}" class="btn btn-info btn-sm">Paper</a>
