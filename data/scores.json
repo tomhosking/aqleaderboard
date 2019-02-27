@@ -5,10 +5,8 @@
         "author": "Tom Hosking",
         "year": 2019,
         "affiliation": "UCL",
-        "paper_url": "#",
-        "paper_type": null,
+        "paper_url": null,
         "code_url": "https://github.com/bloomsburyai/question-generation",
-        "code_type": "github",
         "bleu_score": 13.50,
         "verified": true
     },
@@ -19,9 +17,8 @@
         "year": 2018,
         "affiliation": "Microsoft",
         "paper_url": "https://aclanthology.info/papers/D18-1424/d18-1424",
-        "paper_type": "web",
+        
         "code_url": null,
-        "code_type": null,
         "bleu_score": 16.38
     },
     {
@@ -31,9 +28,7 @@
         "year": 2018,
         "affiliation": "Cornell",
         "paper_url": "https://aclanthology.info/papers/P18-1177/p18-1177",
-        "paper_type": "web",
         "code_url": null,
-        "code_type": null,
         "bleu_score": 15.16
     },
     {
@@ -43,9 +38,8 @@
         "year": 2017,
         "affiliation": "Cornell",
         "paper_url": "https://aclanthology.info/papers/D18-1424/d18-1424",
-        "paper_type": "web",
+        
         "code_url": null,
-        "code_type": null,
         "bleu_score": 12.28,
         "verified": true
     },
@@ -57,9 +51,8 @@
         "year": 2011,
         "affiliation": "CMU",
         "paper_url": "http://www.cs.cmu.edu/~ark/mheilman/questions/",
-        "paper_type": "web",
         "code_url": "http://www.cs.cmu.edu/~ark/mheilman/questions/",
-        "code_type": "web",
+        
         "bleu_score": 9.12,
         "verified": true
     }
