@@ -2,9 +2,17 @@
 
 {% include 'header.htm' %}
 
+{% block title %}About{% endblock %}
+
 {% block content %}
 <div class="container p-4">
     <h2>About the AQ Leaderboard</h2>
+    <br/>
     <p>This is a project to track progress on automated question generation.</p>
+    <h3>What is AQ?</h3>
+    <p>AQ stands for answer questioning, also known as question generation. It represents the inverse of the more widely known "question answering" task, and requires that a model take a context document and an answer within that document, and generate a plasible natural language question.</p>
+    <p>While no dedicated AQ datasets exist, we currently track progress on the most widely used dataset. <a href="https://aclanthology.info/papers/P17-1123/p17-1123">Du et al. (2017)</a> split the well known SQuAD dataset to provide a training, validation and test set. This split is available in the same json format as SQuAD on our <a href="https://github.com/tomhosking/squad-du-split">GitHub</a>.</p>
+    
+    
 </div>
 {% endblock %}

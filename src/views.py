@@ -6,8 +6,8 @@ def squad_board():
 
     with open('./data/scores.json') as fp:
         scores = json.load(fp)
-    
-    ranked = [{'rank': ix+1, **x} for ix, x in enumerate(sorted(scores, key=lambda x: x['bleu_score'], reverse=True))]
+
+    ranked = [{ **x, 'rank': ix+1} for ix, x in enumerate(sorted(scores, key=lambda x: x['bleu_score'], reverse=True))]
 
     return render_template('board.htm', scores=ranked, title="Du et al 2017 split of SQuAD")
 

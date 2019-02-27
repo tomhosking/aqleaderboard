@@ -2,36 +2,57 @@
 
 {% include 'header.htm' %}
 
+{% block title %}Leaderboard for {{ title }}{% endblock %}
+
 {% block content %}
 <div class="container p-4">
 <h2>Leaderboard for {{ title }}</h2>
-
-<table class="table table-striped table-hover">
+<br/>
+<table class="table table-hover">
     <thead>
         <tr>
-        <th scope="col">#</th>
+        <th scope="col"></th>
         <th scope="col">Model</th>
         <th scope="col">Author</th>
         <th scope="col">Paper</th>
         <th scope="col">Code</th>
         <th scope="col">BLEU</th>
+        <th scope="col" data-toggle="tooltip" data-placement="bottom" title="Verified models have provided us generated questions, and we have confirmed the reported BLEU score ourselves." ><span style="border-bottom: 1px dotted #000;">Verified</span></th>
         </tr>
     </thead>
     <tbody>
         {% for model in scores %}
 
             <tr>
-            <th scope="row">{{ model.rank }}</th>
-            <td>{{ model.desc }}</td>
-            <td>{{ model.author }}</td>
-            <td><a href="#">[arxiv]</a></td>
-            <td><a href="#">[github]</a></td>
-            <td>{{ model.bleu_score}}</td>
+            <th class="align-middle" scope="row">{{ model.rank }}</th>
+            <td class="align-middle">{{ model.name }} <hr class="m-1" /><small class="text-muted">{{ model.desc }}</small></td>
+            <td>{{ model.author }} <span class="text-muted">{{ model.year }}</span> <hr class="m-1" /><small>{{ model.affiliation }}</td>
+            <td class="align-middle">
+                {% if model.paper_type == "arxiv" %}
+                    <a href="{{ model.paper_url }}">[arxiv]</a>
+                {% elif model.paper_type == "web" %}
+                    <a href="{{ model.paper_url }}">[web]</a>
+                {% else %}
+                    -
+                {% endif %}
+            </td>
+            <td class="align-middle">
+                {% if model.code_type == "github" %}
+                    <a href="{{ model.code_url }}">[github]</a>
+                {% elif model.code_type == "web" %}
+                    <a href="{{ model.code_url }}">[web]</a>
+                {% else %}
+                    -
+                {% endif %}
+            </td>
+            <td class="align-middle">{{ model.bleu_score}}</td>
+            <td class="align-middle">{% if model.verified %} <i class="fa fa-check" aria-hidden="true"></i> {% else %} <i class="fa fa-close" aria-hidden="true"></i> {% endif %}</td>
             </tr>
 
         {% endfor %}
         
     </tbody>
     </table>
+    <p>Is your model missing? <a href="/submit/">Submit it!</a></p>
 </div>
 {% endblock %}
