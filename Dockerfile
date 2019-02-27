@@ -6,6 +6,6 @@ COPY requirements.txt /app/
 RUN pip install -r requirements.txt
 ADD . /app/
 
-
+WORKDIR /app/src
 ENTRYPOINT ["python3"]
-CMD ["src/app.py"]
+CMD ["app.py"]
