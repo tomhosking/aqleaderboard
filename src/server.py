@@ -9,6 +9,6 @@ PROJECT_DIR = os.path.dirname(os.path.dirname(CURRENT_DIR))
 sys.path.append(CURRENT_DIR )
 
 # Location of the virtualenv.
-sys.path.append(PROJECT_DIR + 'aqvenv/lib/python3.7/site-packages/')
+sys.path.append(PROJECT_DIR + '/aqenv/lib/python3.7/site-packages/')
 
 from app import app as application
