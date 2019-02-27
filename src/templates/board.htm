@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class="container p-4">
-<h2>Leaderboard for the Du et al 2017 split of SQuAD</h2>
+<h2>Leaderboard for {{ title }}</h2>
 
 <table class="table table-striped table-hover">
     <thead>
@@ -18,30 +18,19 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-        <th scope="row">1</th>
-        <td>Seq2Seq + attn</td>
-        <td>Hosking et al (2019)</td>
-        <td><a href="#">[arxiv]</a></td>
-        <td><a href="#">[github]</a></td>
-        <td>13.45</td>
-        </tr>
-        <tr>
-        <th scope="row">2</th>
-        <td>Seq2Seq</td>
-        <td>Du et al (2017)</td>
-        <td>[arxiv]</td>
-        <td>[github]</td>
-        <td>12.34</td>
-        </tr>
-        <tr>
-        <th scope="row">3</th>
-        <td>Heilemann</td>
-        <td>Heilemann</td>
-        <td>[arxiv]</td>
-        <td>[github]</td>
-        <td>9.54</td>
-        </tr>
+        {% for model in scores %}
+
+            <tr>
+            <th scope="row">{{ model.rank }}</th>
+            <td>{{ model.desc }}</td>
+            <td>{{ model.author }}</td>
+            <td><a href="#">[arxiv]</a></td>
+            <td><a href="#">[github]</a></td>
+            <td>{{ model.bleu_score}}</td>
+            </tr>
+
+        {% endfor %}
+        
     </tbody>
     </table>
 </div>

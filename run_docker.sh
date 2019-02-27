@@ -1,1 +1,1 @@
-docker run -it -p 80:8000 -v $PWD/src:/app/src/ -e FLASK_DEBUG=1 aqleaderboard
+docker run -it -p 80:8000 -v $PWD:/app/ -e FLASK_DEBUG=1 aqleaderboard

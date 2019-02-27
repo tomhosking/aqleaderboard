@@ -1,0 +1,21 @@
+[
+    {
+        "desc": "Seq2Seq + attn",
+        "author": "Tom",
+        "paper_link": "#",
+        "paper_type": null,
+        "code_link": "#",
+        "code_type": null,
+        "bleu_score": 13.45
+    },
+
+    {
+        "desc": "Heilmann",
+        "author": "Heilmann",
+        "paper_link": "#",
+        "paper_type": null,
+        "code_link": "#",
+        "code_type": null,
+        "bleu_score": 9.12
+    }
+]
