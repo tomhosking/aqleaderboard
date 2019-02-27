@@ -29,18 +29,18 @@
             <td>{{ model.author }} <span class="text-muted">{{ model.year }}</span> <hr class="m-1" /><small>{{ model.affiliation }}</td>
             <td class="align-middle">
                 {% if model.paper_type == "arxiv" %}
-                    <a href="{{ model.paper_url }}">[arxiv]</a>
+                    <a href="{{ model.paper_url }}" class="btn btn-info btn-sm">arXiv</a>
                 {% elif model.paper_type == "web" %}
-                    <a href="{{ model.paper_url }}">[web]</a>
+                    <a href="{{ model.paper_url }}" class="btn btn-info btn-sm">Web</a>
                 {% else %}
                     -
                 {% endif %}
             </td>
             <td class="align-middle">
                 {% if model.code_type == "github" %}
-                    <a href="{{ model.code_url }}">[github]</a>
+                    <a href="{{ model.code_url }}" class="btn btn-info btn-sm">GitHub</a>
                 {% elif model.code_type == "web" %}
-                    <a href="{{ model.code_url }}">[web]</a>
+                    <a href="{{ model.code_url }}" class="btn btn-info btn-sm">Web</a>
                 {% else %}
                     -
                 {% endif %}
