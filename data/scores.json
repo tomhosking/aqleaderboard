@@ -73,9 +73,9 @@
     {
         "name": "CGC-QG",
         "desc": "Learning to Generate Questions by Learning What not to Generate",
-        "author": "Heilman and Smith",
+        "author": "Liu et al",
         "year": 2019,
-        "affiliation": "CMU",
+        "affiliation": "UAlberta",
         "paper_url": "https://arxiv.org/pdf/1902.10418.pdf",
         "code_url": null,
         
