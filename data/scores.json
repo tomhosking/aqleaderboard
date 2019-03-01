@@ -45,7 +45,7 @@
     },
 
     {
-        "name": "Non-neural approach",
+        "name": "PCFG-Trans",
         "desc": "Question Generation via Overgenerating Transformations and Ranking",
         "author": "Heilman and Smith",
         "year": 2011,
@@ -56,6 +56,34 @@
         "bleu_score": 9.12,
         "verified": true
     },
+
+    {
+        "name": "ASs2s",
+        "desc": "Improving Neural Question Generation using Answer Separation",
+        "author": "Kim et al",
+        "year": 2018,
+        "affiliation": "SNC",
+        "paper_url": "https://arxiv.org/pdf/1809.02393.pdf",
+        "code_url": null,
+        
+        "bleu_score": 16.20,
+        "verified": false
+    },
+
+    {
+        "name": "CGC-QG",
+        "desc": "Learning to Generate Questions by Learning What not to Generate",
+        "author": "Heilman and Smith",
+        "year": 2019,
+        "affiliation": "CMU",
+        "paper_url": "https://arxiv.org/pdf/1902.10418.pdf",
+        "code_url": null,
+        
+        "bleu_score":  17.55,
+        "verified": false
+    },
+
+    
 
     {
         "name": "Baseline - sentence",
