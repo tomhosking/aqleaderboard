@@ -1,7 +1,7 @@
 import string, re
 
-from helpers.bleu import compute_bleu
-from helpers.preprocessing import tokenise
+from evaluation.bleu import compute_bleu
+from evaluation.preprocessing import tokenise
 
 from collections import Counter
 
