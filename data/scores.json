@@ -55,5 +55,18 @@
         
         "bleu_score": 9.12,
         "verified": true
+    },
+
+    {
+        "name": "Baseline - sentence",
+        "desc": "Take the sentence that the answer span falls within as the question",
+        "author": "-",
+        "year": 2019,
+        "affiliation": "-",
+        "paper_url": null,
+        "code_url": "https://github.com/tomhosking/aqleaderboard/blob/master/src/baselines/sentence.py",
+        
+        "bleu_score": 4.93,
+        "verified": true
     }
 ]
