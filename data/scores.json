@@ -1,4 +1,16 @@
 [
+    
+    {
+        "name": "UniLM",
+        "desc": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
+        "author": "Dong et al",
+        "year": 2019,
+        "affiliation": "Microsoft",
+        "paper_url": "https://arxiv.org/pdf/1905.03197.pdf",
+        "code_url": null,
+        "bleu_score": 22.88,
+        "verified": false
+    },
     {
         "name": "Seq2Seq +copy +attn",
         "desc": "A RNN Seq2Seq architecture with attention and copy mechanism",
