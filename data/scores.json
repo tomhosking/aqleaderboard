@@ -7,7 +7,7 @@
         "year": 2019,
         "affiliation": "IIT Madras",
         "paper_url": "https://arxiv.org/pdf/1909.05355.pdf",
-        "code_url": null,
+        "code_url": "https://github.com/PrekshaNema25/RefNet-QG",
         "bleu_score": 18.16,
         "verified": false
     },
