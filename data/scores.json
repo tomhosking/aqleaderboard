@@ -1,6 +1,17 @@
 [
     
     {
+        "name": "RefNet",
+        "desc": "Let’s Ask Again: Refine Network for Automatic Question Generation",
+        "author": "Nema et al",
+        "year": 2019,
+        "affiliation": "IIT Madras",
+        "paper_url": "https://arxiv.org/pdf/1909.05355.pdf",
+        "code_url": null,
+        "bleu_score": 18.16,
+        "verified": false
+    },
+    {
         "name": "UniLM",
         "desc": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
         "author": "Dong et al",
