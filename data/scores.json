@@ -6,7 +6,7 @@
         "year": 2019,
         "affiliation": "UNC Chapel Hill",
         "paper_url": "https://arxiv.org/pdf/1909.06356.pdf",
-        "code_url": null,
+        "code_url": "https://github.com/ZhangShiyue/QGforQA",
         "bleu_score": 18.37,
         "verified": false
     },
