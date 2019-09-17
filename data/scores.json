@@ -70,18 +70,6 @@
         "verified": false
     },
 
-    {
-        "name": "CGC-QG",
-        "desc": "Learning to Generate Questions by Learning What not to Generate",
-        "author": "Liu et al",
-        "year": 2019,
-        "affiliation": "UAlberta",
-        "paper_url": "https://arxiv.org/pdf/1902.10418.pdf",
-        "code_url": null,
-        
-        "bleu_score":  17.55,
-        "verified": false
-    },
 
     
 
