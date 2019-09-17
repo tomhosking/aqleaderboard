@@ -1,0 +1,35 @@
+[
+    {
+        "name": "RefNet",
+        "desc": "Let’s Ask Again: Refine Network for Automatic Question Generation",
+        "author": "Nema et al",
+        "year": 2019,
+        "affiliation": "IIT Madras",
+        "paper_url": "https://arxiv.org/pdf/1909.05355.pdf",
+        "code_url": "https://github.com/PrekshaNema25/RefNet-QG",
+        "bleu_score": 18.16,
+        "verified": false
+    },
+    {
+        "name": "UniLM",
+        "desc": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
+        "author": "Dong et al",
+        "year": 2019,
+        "affiliation": "Microsoft",
+        "paper_url": "https://arxiv.org/pdf/1905.03197.pdf",
+        "code_url": null,
+        "bleu_score": 22.88,
+        "verified": false
+    },
+    {
+        "name": "Maxout Pointer",
+        "desc": "Paragraph-level Neural Question Generation with Maxout Pointer and Gated Self-attention Networks",
+        "author": "Zhao et al",
+        "year": 2018,
+        "affiliation": "Microsoft",
+        "paper_url": "https://www.aclweb.org/anthology/D18-1424",
+        
+        "code_url": null,
+        "bleu_score": 16.38
+    }
+]

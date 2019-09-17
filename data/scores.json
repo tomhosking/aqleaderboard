@@ -1,25 +1,13 @@
 [
-    
     {
-        "name": "RefNet",
-        "desc": "Let’s Ask Again: Refine Network for Automatic Question Generation",
-        "author": "Nema et al",
+        "name": "QPP&QAP",
+        "desc": "Addressing Semantic Drift in Question Generation for Semi-Supervised Question Answering",
+        "author": "Zhang and Bansal",
         "year": 2019,
-        "affiliation": "IIT Madras",
-        "paper_url": "https://arxiv.org/pdf/1909.05355.pdf",
-        "code_url": "https://github.com/PrekshaNema25/RefNet-QG",
-        "bleu_score": 18.16,
-        "verified": false
-    },
-    {
-        "name": "UniLM",
-        "desc": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
-        "author": "Dong et al",
-        "year": 2019,
-        "affiliation": "Microsoft",
-        "paper_url": "https://arxiv.org/pdf/1905.03197.pdf",
+        "affiliation": "UNC Chapel Hill",
+        "paper_url": "https://arxiv.org/pdf/1909.06356.pdf",
         "code_url": null,
-        "bleu_score": 22.88,
+        "bleu_score": 18.37,
         "verified": false
     },
     {
@@ -32,17 +20,6 @@
         "code_url": "https://github.com/bloomsburyai/question-generation",
         "bleu_score": 13.50,
         "verified": true
-    },
-    {
-        "name": "Maxout Pointer",
-        "desc": "Paragraph-level Neural Question Generation with Maxout Pointer and Gated Self-attention Networks",
-        "author": "Zhao et al",
-        "year": 2018,
-        "affiliation": "Microsoft",
-        "paper_url": "https://aclanthology.info/papers/D18-1424/d18-1424",
-        
-        "code_url": null,
-        "bleu_score": 16.38
     },
     {
         "name": "Seq2Seq +copy +attn +coref",
@@ -60,7 +37,7 @@
         "author": "Du et al",
         "year": 2017,
         "affiliation": "Cornell",
-        "paper_url": "https://aclanthology.info/papers/D18-1424/d18-1424",
+        "paper_url": "https://www.aclweb.org/anthology/P17-1123/",
         
         "code_url": null,
         "bleu_score": 12.28,
