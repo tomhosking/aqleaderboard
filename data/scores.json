@@ -1,4 +1,30 @@
 [
+    17.94
+    
+    {
+        "name": "G2S +BERT+RL",
+        "desc": "Reinforcement Learning Based Graph-to-Sequence Model for Natural Question Generation",
+        "author": "Chen et al",
+        "year": 2019,
+        "affiliation": "RPI/IBM",
+        "paper_url": "https://arxiv.org/pdf/1908.04942.pdf",
+        "code_url": null,
+        "bleu_score": 17.94,
+        "verified": false
+    },
+    
+    
+    {
+        "name": "M2S+cp",
+        "desc": "Leveraging Context Information for Natural Question Generation",
+        "author": "Song et al",
+        "year": 2018,
+        "affiliation": "University of Rochester/IBM",
+        "paper_url": "https://www.aclweb.org/anthology/N18-2090",
+        "code_url": null,
+        "bleu_score": 13.98,
+        "verified": false
+    },
     {
         "name": "QPP&QAP",
         "desc": "Addressing Semantic Drift in Question Generation for Semi-Supervised Question Answering",
