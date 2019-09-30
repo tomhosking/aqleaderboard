@@ -1,5 +1,15 @@
 [
-    
+    {
+        "name": "UniLM",
+        "desc": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
+        "author": "Dong et al",
+        "year": 2019,
+        "affiliation": "Microsoft",
+        "paper_url": "https://arxiv.org/pdf/1905.03197.pdf",
+        "code_url": "https://github.com/microsoft/unilm",
+        "bleu_score": 22.78,
+        "verified": false
+    },
     
     {
         "name": "G2S +BERT+RL",
