@@ -11,6 +11,19 @@
         "verified": false
     },
     
+
+    
+    {
+        "name": "TTPC",
+        "desc": "Improving Question Generation With to the Point Context",
+        "author": "Li et al",
+        "year": 2019,
+        "affiliation": "CUHK",
+        "paper_url": "https://arxiv.org/pdf/1910.06036.pdf",
+        "code_url": null,
+        "bleu_score": 16.27,
+        "verified": false
+    },
     {
         "name": "G2S +BERT+RL",
         "desc": "Reinforcement Learning Based Graph-to-Sequence Model for Natural Question Generation",
