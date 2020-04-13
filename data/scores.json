@@ -1,4 +1,17 @@
 [
+
+    {
+        "name": "UniLM v2",
+        "desc": "UNILMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training",
+        "author": "Bao et al",
+        "year": 2020,
+        "affiliation": "Microsoft",
+        "paper_url": "https://arxiv.org/pdf/2002.12804.pdf",
+        "code_url": "https://github.com/microsoft/unilm",
+        "bleu_score": 24.43,
+        "verified": false
+    },
+
     {
         "name": "UniLM",
         "desc": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
