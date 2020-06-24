@@ -10,5 +10,46 @@
         "code_url": "https://github.com/microsoft/unilm",
         "bleu_score": 24.43,
         "verified": false
+    },
+
+
+    {
+        "name": "SemMatch",
+        "desc": "Improving Question Generation with Sentence-level Semantic Matching and Answer Position Inferring",
+        "author": "Ma et al",
+        "year": 2019,
+        "affiliation": "University of Florida",
+        "paper_url": "https://aaai.org/Papers/AAAI/2020GB/AAAI-MaX.3512.pdf",
+        "code_url": null,
+        "bleu_score": 20.46,
+        "verified": false
+    },
+
+
+
+    {
+        "name": "NQG++",
+        "desc": "Neural Question Generation from Text: A Preliminary Study",
+        "author": "Zhou et al",
+        "year": 2017,
+        "affiliation": "Microsoft",
+        "paper_url": "https://arxiv.org/pdf/1704.01792.pdf",
+        "code_url": "https://github.com/magic282/NQG",
+        "bleu_score": 16.13,
+        "verified": false
+    },
+    {
+        "name": "Maxout Pointer",
+        "desc": "Paragraph-level Neural Question Generation with Maxout Pointer and Gated Self-attention Networks",
+        "author": "Zhao et al",
+        "year": 2018,
+        "affiliation": "Microsoft",
+        "paper_url": "https://www.aclweb.org/anthology/D18-1424",
+        
+        "code_url": null,
+        "bleu_score": 17.24
     }
+    
+    
+    
 ]
