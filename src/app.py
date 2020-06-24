@@ -20,19 +20,19 @@ def squad():
     return views.squad_board()
 
 @app.route('/squad-zhao')
-def squad():
+def squadzhao():
     return views.squadrevdev_board()
 
 @app.route('/newsqa')
-def squad():
+def newsqa():
     return views.newsqa_board()
 
 @app.route('/naturalquestions')
-def squad():
+def naturalquestions():
     return views.nq_board()
 
 @app.route('/msmarco')
-def squad():
+def msmarco():
     return views.msmarco_board()
 
 if __name__ == "__main__":
