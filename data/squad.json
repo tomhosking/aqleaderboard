@@ -13,6 +13,20 @@
     },
 
     {
+        "name": "BART",
+        "desc": "Numbers not reported in paper",
+        "author": "Lewis et al",
+        "year": 2020,
+        "affiliation": "Facebook",
+        "paper_url": "https://www.aclweb.org/anthology/2020.acl-main.703/",
+        "code_url": null,
+        "bleu_score": 21.53,
+        "verified": true
+    },
+
+    
+
+    {
         "name": "UniLM",
         "desc": "Unified Language Model Pre-training for Natural Language Understanding and Generation",
         "author": "Dong et al",
@@ -25,6 +39,17 @@
     },
     
 
+    {
+        "name": "CopyBERT",
+        "desc": "CopyBERT: A Unified Approach to Question Generation with Self-Attention",
+        "author": "Varanasi et al",
+        "year": 2020,
+        "affiliation": "DFKO",
+        "paper_url": "https://www.aclweb.org/anthology/2020.nlp4convai-1.3.pdf",
+        "code_url": null,
+        "bleu_score": 22.71,
+        "verified": false
+    },
     
     {
         "name": "TTPC",

@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-from views import squad_board, submit_form
+import views
 
 @app.route('/')
 def index():
@@ -13,11 +13,27 @@ def about():
 
 @app.route('/submit')
 def submit():
-    return submit_form()
+    return views.submit_form()
 
 @app.route('/squad')
 def squad():
-    return squad_board()
+    return views.squad_board()
+
+@app.route('/squad-zhao')
+def squad():
+    return views.squadrevdev_board()
+
+@app.route('/newsqa')
+def squad():
+    return views.newsqa_board()
+
+@app.route('/naturalquestions')
+def squad():
+    return views.nq_board()
+
+@app.route('/msmarco')
+def squad():
+    return views.msmarco_board()
 
 if __name__ == "__main__":
     app.run('0.0.0.0', port=8000)
