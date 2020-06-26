@@ -1,3 +1,15 @@
 [
 
+    {
+        "name": "BART",
+        "desc": "Numbers not reported in paper - fine tuned by Tom Hosking",
+        "author": "Lewis et al",
+        "year": 2020,
+        "affiliation": "Facebook",
+        "paper_url": "https://www.aclweb.org/anthology/2020.acl-main.703/",
+        "code_url": null,
+        "bleu_score": 18.02,
+        "verified": true
+    }
+
 ]
